@@ -39,7 +39,7 @@ function Question({ item, isOpen, onClick }: QuestionProps) {
 				>
 					{question}
 				</h1>
-				<button className="ml-8">
+				<button className="ml-8" type="button">
 					<img src="/images/icon-arrow-down.svg" alt="" />
 				</button>
 			</div>
